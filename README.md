@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: names.csv
+    - url: gbif-fossilSpecimen-Rosaceae.csv
       type: text/csv
 #   - url: https://example.org/data.tsv
 #     type: text/tab-separated-values
@@ -22,8 +22,8 @@ taxonomies:
 #    - id: batnames
 #      name: Bat Names 
 #    - id: col
-#      name: Catalogue of Life
-#    - id: gbif
+      name: Catalogue of Life
+    - id: gbif
 #      name: GBIF Backbone Taxonomy
 #    - id: globi
 #      name: GloBI Taxon Graph
@@ -36,7 +36,7 @@ taxonomies:
 #    - id: tpt
 #      name: Terrestrial Parasite Tracker Taxonomies
 #    - id: wfo
-#      name: World of Flora Online
+      name: World of Flora Online
 ---
 
 ## Name Alignment
