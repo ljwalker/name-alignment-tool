@@ -41,7 +41,7 @@ taxonomies:
       name: Paleobiology Database
 ---
 
-# Name Alignment
+## Name Alignment
 
 [![Name Alignment by Nomer](../../actions/workflows/align.yml/badge.svg)](../../actions/workflows/align.yml)
 
