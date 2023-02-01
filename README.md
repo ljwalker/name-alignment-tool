@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: Vertebrate-test.csv
+    - url: CAS_EPICCTaxa_nameAlignment_TEST.csv
       type: text/csv
 #   - url: https://example.org/data.tsv
 #     type: text/tab-separated-values
@@ -13,8 +13,8 @@ datasets:
 #      type: application/rss2+xml
 # edit list below to select taxonomies you'd like to work with
 taxonomies:
-#    - id: itis
-#      name: Integrated Taxonomic Information System
+    - id: itis
+      name: Integrated Taxonomic Information System
 #    - id: ncbi
 #      name: NCBI Taxonomy
 #    - id: discoverlife
